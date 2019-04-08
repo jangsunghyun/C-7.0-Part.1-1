@@ -22,8 +22,25 @@ namespace ValueRefTypeEx
                 - 참조 형식은 힙과 스택을 함계 이용한다.
                     - Heap 영역에는 실제 데이터를 저장하고
                     - Stack 영역에는 실제 데이터가 저장되어 있는 Heap의 메모리 주소가 저장된다.
-            */
+            
+                [ object 형식 ]            
+                - C#은 모든 데이터를 다룰수 있는 object 형식을 제공하고 있다.
+                - C# 컴파일러는 어떤 형식의 데이터라도 object 형식에 담아 처리할수 있다.
 
+             */
+
+            object obj1 = 111;
+            object obj2 = 3.141212121212m;
+            object obj3 = true;
+            object obj4 = "hi C#!!!";
+
+            Console.WriteLine(obj1);
+            Console.WriteLine(obj2);
+            Console.WriteLine(obj3);
+            Console.WriteLine(obj4);
+            Console.ReadKey();
+
+             
         }
     }
 }

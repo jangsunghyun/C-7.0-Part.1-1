@@ -27,7 +27,9 @@ namespace HelloPj
             float f_ = float.MaxValue;
 
             Console.Write(f+ " ~ " + f_);
-            Console.ReadKey(); 
-        }
+            Console.ReadKey();
+
+  
+        }   
     }
 }
