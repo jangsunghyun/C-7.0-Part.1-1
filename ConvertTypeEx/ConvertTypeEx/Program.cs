@@ -16,8 +16,29 @@ namespace ConvertTypeEx
             /*
              데이터 형식 변환(형변환) : 변수를 다른 데이터 형식에 옮기는 것을 의미
 
+                - 크기가 서로 다른 정수형 사이의 형변환
+                - 크기가 서로 다른 부동소수점 사이의 형변환
+                - 부호있는 정수형과 부호없는 정수형 사이의 형변환
+                - 실수형(부동소수점)과 정수형 사이의 형변환
+                - 문자열과 숫자 사이의 형변환
 
              */
+
+            sbyte a = 127;
+            Console.WriteLine(sbyte.MinValue);
+            Console.WriteLine(sbyte.MaxValue);
+            Console.WriteLine(a);
+
+            int aa = (int)a;
+            Console.WriteLine(aa);
+
+            int x = 128;
+            Console.WriteLine(x);
+
+            sbyte xx = (sbyte)x;
+            Console.WriteLine(xx);
+
+            Console.ReadKey();
         }
     }
 }
