@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertTypeEx4", "ConvertTypeEx4\ConvertTypeEx4.csproj", "{42D677DC-7C1A-4F0B-ABA9-700C82A8883C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42D677DC-7C1A-4F0B-ABA9-700C82A8883C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D677DC-7C1A-4F0B-ABA9-700C82A8883C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D677DC-7C1A-4F0B-ABA9-700C82A8883C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D677DC-7C1A-4F0B-ABA9-700C82A8883C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B55D0D7-4A55-421C-8AE8-46069EA525EA}
+	EndGlobalSection
+EndGlobal
