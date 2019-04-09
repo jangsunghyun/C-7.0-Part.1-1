@@ -24,22 +24,25 @@ namespace BoxUnBoxEx
 
              */
             int x = 111;
-
-            object obj1 = (object)x; // x에 담겨있는 값을 박싱해서 힙에 저장.
-            int y = (int)obj1;  //unboxing 후에 스택에 저장된다.
-
             Console.WriteLine(x);
+
+            object obj1 = (object)x; // x에 담겨있는 값을 Boxing해서 힙에 저장.            
             Console.WriteLine(obj1);
+
+            int y = (int)obj1;  //unboxing 후에 스택에 저장된다.
             Console.WriteLine(y);
 
             double xx = 2.12121212;
+            Console.WriteLine(xx);
+
+
             // object 형식에 저장 할 때에는 형변환 연산자를 사용하지 않아도
             // 자동으로 (묵시적으로) 형 변환이 이루어진다. 
             object yy = xx;
-            double zz = (double)yy;
-
-            Console.WriteLine(xx);
             Console.WriteLine(yy);
+
+
+            double zz = (double)yy;                        
             Console.WriteLine(zz);
 
             Console.ReadKey();
