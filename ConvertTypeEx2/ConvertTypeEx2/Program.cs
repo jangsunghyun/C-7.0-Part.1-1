@@ -16,6 +16,18 @@ namespace ConvertTypeEx2
 
             Double d = (double)f;
             Console.WriteLine("d : {0}", d);
+
+            double dd = 0.121212121212d;
+            Console.WriteLine("dd : {0}", dd);
+
+            float ff = (float)dd;
+            Console.WriteLine("ff : {0}", ff);
+
+            float x = 69.8575f;
+            Console.WriteLine("x : {0}", x);
+
+            double dx = (double)x;
+            Console.WriteLine("dx : {0}", dx);
         }
     }
 }
