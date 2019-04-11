@@ -37,10 +37,30 @@ namespace ArrayEx
 
             //int sum = score1 + score2 + score3 + score4 + score5;
 
-            int[] score = new int[5] { 77, 80, 90, 60, 88 };
+            //int[] score = new int[5] { 77, 80, 90, 60, 88 };
+            //int[] score = { 77, 80, 90, 60, 88 };
+
+            int[] score = new  int[5];
+            score[0] = 77;
+            score[1] = 80;
+            score[2] = 90;
+            score[2] = 60;
+            score[4] = 88;
+
+
             int sum = 0;
-            for (int i = 0; i < score.Length; i++)
-                sum += score[i];
+
+            //for (int i = 0; i < score.Length; i++)
+            //    sum += score[i];
+
+            foreach (int scoreData in score)
+                sum += scoreData;
+
+
+            // foreach 문 사용
+            // foreach (데이터형식 변수명 in 배열/컬렉션)
+            //  반복 실행 코드
+
 
             Console.WriteLine(sum);
 
