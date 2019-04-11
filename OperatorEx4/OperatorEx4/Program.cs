@@ -23,6 +23,16 @@ namespace OperatorEx4
             Console.WriteLine("{0:D3} 0x{0:X8}", aa);  //16진수
             Console.WriteLine("{0:D3} 0x{0:x8}", a << 1); //
             Console.WriteLine("{0:D3} 0x{0:x8}", a << 5);
+
+            Console.WriteLine();
+
+            int b = 255;
+            Console.WriteLine("{0:D3} 0x{0:x8}", b );
+            Console.WriteLine("{0:D3} 0x{0:x8}", b >> 2);
+
+            int c = -255;
+            Console.WriteLine("{0:D3} 0x{0:x8}", c);
+            //Console.WriteLine("{0:D3} 0x{0:x8}", c);
         }
     }
 }
