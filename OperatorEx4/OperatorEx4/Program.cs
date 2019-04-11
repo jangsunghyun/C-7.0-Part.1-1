@@ -32,7 +32,18 @@ namespace OperatorEx4
 
             int c = -255;
             Console.WriteLine("{0:D3} 0x{0:x8}", c);
-            //Console.WriteLine("{0:D3} 0x{0:x8}", c);
+            Console.WriteLine("{0:D3} 0x{0:x8}", c >> 1);
+
+            int x = 9;
+            int y = 10;
+            Console.WriteLine( x & y);
+            Console.WriteLine(x | y);
+            Console.WriteLine(x ^ y);
+
+            // ~ 보수 연산자.
+            int xx = 255;     // {0} {1}  10진수 표현  0x{1:x8} 16진수 표현
+            Console.WriteLine("{0} 0x{0:x8} {1} 0x{1:x8} ", xx, ~xx);
+
         }
     }
 }

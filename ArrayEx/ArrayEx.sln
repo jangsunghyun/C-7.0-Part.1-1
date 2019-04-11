@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayEx", "ArrayEx\ArrayEx.csproj", "{400A8EB2-BEEA-4F64-8F87-CC40CF83A2C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{400A8EB2-BEEA-4F64-8F87-CC40CF83A2C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{400A8EB2-BEEA-4F64-8F87-CC40CF83A2C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{400A8EB2-BEEA-4F64-8F87-CC40CF83A2C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{400A8EB2-BEEA-4F64-8F87-CC40CF83A2C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {581BE988-0A31-4087-AD36-3D9E75AE3E89}
+	EndGlobalSection
+EndGlobal
